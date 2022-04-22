@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section.insert-task{
+    height: 200px;
+    width: 100%;
+}
+div.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+section.insert-task div.container h1{
+    font-size: 2.7rem;
+    color: #3f51b5;
+}
+div.input-block{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+div.input-block div{
+    width: 50%;
+}
+div.input input[type=text]{
+    width: 400px;
+    height: 30px;
+    border: 2px solid #3f51b5;
+    border-radius: 3px;
+    background-color: white;
+}
+div.input input[type=text]:focus{
+    outline: 0;
+}
+div.submit input[type=submit]{
+    width: 400px;
+    height: 30px;
+    border: 2px solid #3f51b5;
+    border-radius: 3px;
+    background-color: #3f51b5;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+    font-size: 1.1rem;
+}
+div.submit input[type=submit]:hover{
+    background-color: #2f3c85;
+    border-color: #2f3c85;
+}
+div.submit input[type=submit]:active{
+    background-color: #0a8364;
+    border-color: #0a8364;
+}
+div.cont-list{
+    background-color: #e8ebff;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    min-height: 300px;
+    display: flex;
+    padding: 10px 30px;
+}
+ul li{
+    list-style: none;
+    color: #3f51b5;
+    font-size: 1.2rem;
+}
+ul.text-list{
+    width: 50%;
+    font-style: italic;
+    font-weight: 700;
+}
+ul.delete-list{
+    width: 50%;
+}
+ul.delete-list a{
+    color: #3f51b5;
+    text-decoration: none;
+}
